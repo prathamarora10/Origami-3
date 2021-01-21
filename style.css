@@ -1,0 +1,67 @@
+.header
+{
+    background-color: #00eaff;
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.heading
+{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.des
+{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Animal
+{
+    background-color: #F6CBA4;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.Pet
+{
+    background-color: white;
+    border-radius: 30px; 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px; 
+    position: relative;
+}
+
+.Pet p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.Pet:hover p{
+opacity: 1;
+}
+
+.Pet:hover img{
+opacity: 0.33;
+}
+
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: purple;
+}
